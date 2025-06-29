@@ -2,7 +2,8 @@
 
 This repository contains the Python code and analysis for a microeconometric project investigating the causal impact of retirement status on preventive health behaviors during the COVID-19 pandemic. As part of a group, our work involved applying robust econometric methods to address endogeneity and ensure reliable causal inference from observational data.
 
-📝 Project Overview
+# 📝 Project Overview
+
 This academic project, developed in a group setting, delves into micro-level survey data from Europe to understand the factors influencing individual preventive behaviors during a public health crisis. It showcases the application of advanced econometric techniques to establish causality in a complex social science context.
 
 🎯 Objectives
@@ -16,7 +17,8 @@ To analyze the influence of various socioeconomic and demographic factors (age, 
 
 To compare and interpret the results from OLS and IV estimations to highlight the importance of econometric rigor.
 
-📊 Dataset
+# 📊 Dataset
+
 The project utilizes a cross-sectional dataset (group1.csv) of older individuals in Europe, collected during the first wave of the COVID-19 pandemic. Key variables include:
 
 alwaysdis: Binary (1/0) for always keeping distance outside home (dependent variable).
@@ -35,7 +37,8 @@ iscedX: Dummy variables for different education levels.
 
 country dummies: For country of residence.
 
-⚙️ Methodology & Workflow
+# ⚙️ Methodology & Workflow
+
 Our group's structured econometric approach involved the following key steps, implemented in Python:
 
 Data Loading & Initial Exploration:
@@ -74,7 +77,8 @@ Compared coefficients and standard errors across OLS and IV (2SLS/GMM) models.
 
 Interpreted the causal effects of retirement and other covariates, highlighting how IV methods yielded more consistent (often larger) estimates by addressing endogeneity bias.
 
-🛠️ Technologies & Tools
+# 🛠️ Technologies & Tools
+
 Python: Primary programming language.
 
 Pandas: For data loading, manipulation, and cleaning.
@@ -89,7 +93,8 @@ Linearmodels: Essential for implementing Instrumental Variable regressions (IV2S
 
 Matplotlib: (If visualizations were part of the descriptive analysis, e.g., for country-specific averages).
 
-🏃 How to Run the Project
+# 🏃 How to Run the Project
+
 Clone the repository:
 
 git clone https://github.com/Sametcan99/Microeconometrics-Preventive-Behavior-COVID.git
@@ -110,7 +115,8 @@ jupyter notebook "Econometric Analysis Homework Group 1.ipynb"
 
 Execute the cells sequentially to replicate the analysis and results.
 
-📈 Key Findings & Insights
+# 📈 Key Findings & Insights
+
 Confirmed the presence of heteroskedasticity, underscoring the importance of robust standard errors in microeconometric analysis.
 
 Demonstrated that retirement status likely has a stronger positive causal effect on preventive behavior when endogeneity is addressed via IV.
@@ -119,7 +125,7 @@ Showcased the ability to diagnose and resolve complex econometric challenges (li
 
 Provided insights into how various socioeconomic and demographic factors influence health-related behaviors during a crisis.
 
-📞 Contact
+# 📞 Contact
 Feel free to connect with me for any questions or collaborations:
 
 LinkedIn: https://www.linkedin.com/in/sametcan-kandemirt/
